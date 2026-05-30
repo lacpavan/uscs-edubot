@@ -1,173 +1,116 @@
+<div align="center">
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+
+<br/>
+<br/>
+
 # EduBot USCS
 
-EduBot USCS é uma aplicação web acadêmica desenvolvida por alunos do curso de Inteligência Artificial da Universidade Municipal de São Caetano do Sul (USCS).
+**Plataforma acadêmica inteligente para centralizar informações, serviços e recursos da USCS em uma interface única e interativa.**
 
-O projeto tem como objetivo facilitar o acesso dos estudantes às principais informações, serviços e recursos acadêmicos da universidade por meio de uma interface moderna, interativa e intuitiva.
+[🔗 Ver demo](https://edubot-projeto-academico.vercel.app/) · [📂 Repositório](https://github.com/lacpavan/uscs-edubot)
 
----
-
-# Funcionalidades
-
-* Interface responsiva para Desktop e Mobile
-* Mascote virtual interativo (EduBot)
-* Cards de navegação acadêmica
-* Balão dinâmico de informações
-* Modo Claro e Escuro
-* Efeitos sonoros e áudio de boas-vindas
-* Links rápidos para serviços institucionais
-* Organização visual moderna e amigável
-* Integração Frontend + Backend via API REST
+</div>
 
 ---
 
-# Tecnologias Utilizadas
+## Sobre o projeto
 
-## Frontend
-
-* React
-* TypeScript
-* Vite
-* CSS3
-* Lucide React
-
-## Backend
-
-* Python
-* FastAPI
-
-## Ferramentas
-
-* Node.js
-* npm
-* Git
-* GitHub
+O EduBot nasceu de uma dor real: Estudantes da USCS navegavam por múltiplos canais institucionais para acessar informações básicas. A plataforma resolve isso com uma interface centralizada, responsiva e com um mascote virtual interativo que guia o usuário pelos recursos da universidade.
 
 ---
 
-# Estrutura do Projeto
+## Funcionalidades
 
-```bash
-edubot/
-│
+- 🤖 **Mascote virtual (EduBot)** — Balão dinâmico de informaçõesn e efeitos visuais.
+- 🗂️ **Cards de navegação** — Links rápidos para os principais serviços institucionais.
+- 🌗 **Dark/light mode**
+- 📱 **Layout responsivo** — Tela única sem scroll no desktop, reorganização dinâmica no mobile.
+- 🔌 **Integração via API REST** — Front-End e Back-End desacoplados.
+
+---
+
+## Arquitetura
+
+```
+uscs-edubot/
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   ├── package.json
 │   └── vite.config.ts
-│
 ├── backend/
 │   ├── main.py
-│   ├── requirements.txt
-│   └── ...
-│
+│   └── requirements.txt
 └── README.md
 ```
 
+**Frontend:** React + TypeScript + Vite + CSS3 + Lucide React  
+**Backend:** Python + FastAPI (validação via Pydantic, documentação OpenAPI automática)  
+**Deploy:** Vercel
+
 ---
 
-# Como Executar o Projeto
+## Rodando localmente
 
-## 1. Clone o Repositório
+**Pré-requisitos:** Node.js ≥ 18, Python ≥ 3.8
+
+### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/edubot-uscs.git
+git clone https://github.com/lacpavan/uscs-edubot.git
+cd uscs-edubot
 ```
 
----
-
-# Frontend
-
-## Instalar Dependências
+### 2. Frontend
 
 ```bash
 cd frontend
 npm install
-```
-
-## Executar
-
-```bash
 npm run dev
 ```
 
-O frontend ficará disponível em:
+Disponível em `http://localhost:5173`
 
-```bash
-http://localhost:5173
-```
-
----
-
-# Backend
-
-## Instalar Dependências
+### 3. Backend
 
 ```bash
 cd backend
 pip install -r requirements.txt
-```
-
-## Executar
-
-```bash
 uvicorn main:app --reload
 ```
 
-O backend ficará disponível em:
-
-```bash
-http://localhost:8000
-```
+Disponível em `http://localhost:8000`  
+Documentação da API: `http://localhost:8000/docs`
 
 ---
 
-# Responsividade
-
-O projeto foi desenvolvido com foco em responsividade:
-
-* Desktop:
-
-  * Tela única sem scroll
-  * Layout centralizado
-  * Melhor aproveitamento visual
-
-* Mobile:
-
-  * Layout adaptável
-  * Scroll automático quando necessário
-  * Reorganização dinâmica dos componentes
-
----
-
-# Funcionalidades do EduBot
-
-O mascote virtual EduBot possui:
-
-* Balão interativo de informações
-* Áudios personalizados
-* Efeitos visuais
-* Compatibilidade com Dark Mode
-* Integração com os cards da plataforma
-
----
-
-# Equipe
+## Equipe
 
 Projeto desenvolvido por alunos do curso de Inteligência Artificial da USCS.
 
-## Integrantes
-
-* Larissa Pavan
-* Beatriz Mayumi
-* Thiago Alves
-* Guilherme Carvalho
-* Samuel de Castro
-* Luana Goto
-* Maria Esteves
+| Nome | GitHub |
+|------|--------|
+| Larissa Pavan | [@lacpavan](https://github.com/lacpavan) |
+| Beatriz Mayumi | [@BiaMayumi](https://github.com/BiaMayumi) |
+| Thiago Alves Serra | [@thiagoexpressoDev](https://github.com/thiagoexpressoDev) |
+| Guilherme Carvalho | [@guilhermecarvalho173](https://github.com/guilhermecarvalho173) |
+| Samuel de Castro | — |
+| Luana Goto | — |
+| Maria Clara Esteves | [@uusaagii](https://github.com/uusaagii) |
 
 ---
 
-# Objetivo Acadêmico
+<div align="center">
+
+Projeto desenvolvido para a disciplina "Plataformas Computacionais para IA" do Prof. Dr. Carlos Eduardo Bognar, do curso de Inteligência Artificial da Universidade Municipal de São Caetano do Sul.
+
+</div>
 
 O EduBot foi criado com o propósito de melhorar a experiência acadêmica dos estudantes, centralizando informações importantes em uma plataforma intuitiva, moderna e acessível.
 
