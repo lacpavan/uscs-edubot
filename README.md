@@ -11,8 +11,6 @@
 
 # EduBot USCS
 
-**Plataforma acadêmica inteligente para centralizar informações, serviços e recursos da USCS em uma interface única e interativa.**
-
 [🔗 Ver demo](https://edubot-projeto-academico.vercel.app/) · [📂 Repositório](https://github.com/lacpavan/uscs-edubot)
 
 </div>
@@ -27,11 +25,11 @@ O EduBot nasceu de uma dor real: Estudantes da USCS navegavam por múltiplos can
 
 ## Funcionalidades
 
-- 🤖 **Mascote virtual (EduBot)** — Balão dinâmico de informaçõesn e efeitos visuais.
-- 🗂️ **Cards de navegação** — Links rápidos para os principais serviços institucionais.
+- 🤖 **Mascote virtual (EduBot)** - Balão dinâmico de informaçõesn e efeitos visuais.
+- 🗂️ **Cards de navegação** - Links rápidos para os principais serviços institucionais.
 - 🌗 **Dark/light mode**
-- 📱 **Layout responsivo** — Tela única sem scroll no desktop, reorganização dinâmica no mobile.
-- 🔌 **Integração via API REST** — Front-End e Back-End desacoplados.
+- 📱 **Layout responsivo** - Tela única sem scroll no desktop, reorganização dinâmica no mobile.
+- 🔌 **Integração via API REST** - Front-End e Back-End desacoplados.
 
 ---
 
@@ -89,10 +87,11 @@ Disponível em `http://localhost:8000`
 Documentação da API: `http://localhost:8000/docs`
 
 ---
+## Contexto acadêmico
+
+Projeto desenvolvido para a disciplina "Plataformas Computacionais para IA" do Prof. Dr. Carlos Eduardo Bognar, do curso de Inteligência Artificial da Universidade Municipal de São Caetano do Sul.
 
 ## Equipe
-
-Projeto desenvolvido por alunos do curso de Inteligência Artificial da USCS.
 
 | Nome | GitHub |
 |------|--------|
@@ -100,18 +99,8 @@ Projeto desenvolvido por alunos do curso de Inteligência Artificial da USCS.
 | Beatriz Mayumi | [@BiaMayumi](https://github.com/BiaMayumi) |
 | Thiago Alves Serra | [@thiagoexpressoDev](https://github.com/thiagoexpressoDev) |
 | Guilherme Carvalho | [@guilhermecarvalho173](https://github.com/guilhermecarvalho173) |
-| Samuel de Castro | — |
-| Luana Goto | — |
+| Luana Goto | [@luanagoto](https://github.com/luanagoto) |
 | Maria Clara Esteves | [@uusaagii](https://github.com/uusaagii) |
-
----
-
-<div align="center">
-
-Projeto desenvolvido para a disciplina "Plataformas Computacionais para IA" do Prof. Dr. Carlos Eduardo Bognar, do curso de Inteligência Artificial da Universidade Municipal de São Caetano do Sul.
-
-</div>
-
-O EduBot foi criado com o propósito de melhorar a experiência acadêmica dos estudantes, centralizando informações importantes em uma plataforma intuitiva, moderna e acessível.
+| Samuel de Castro | — |
 
 ---
